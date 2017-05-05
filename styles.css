@@ -355,26 +355,30 @@ th {
   padding: 0; }
 
 .test1 {
-  background-image: url(/img/logo.png);
   width: 100%;
-  background-repeat: no-repeat;
-  background-position: left;
   margin: 0 auto;
-  box-shadow: 0 5px 10px #888888; }
+  box-shadow: 0 5px 10px #888888;
+  background-color: black;
+  opacity: 0.5;
+  color: white;
+  position: fixed;
+  top: 0; }
 
 li {
   display: inline-block;
-  width: 12.5%;
-  border-bottom: 8px solid transparent; }
+  width: 156px;
+  border-bottom: 8px solid transparent;
+  text-align: center; }
 
 .test1 {
   height: 100px; }
 
 li, ul {
   height: 92px;
-  line-height: 100px; }
+  line-height: 100px;
+  padding: 0;
+  margin: 0; }
 
 li:hover {
   border-bottom: 8px solid black;
-  /* Sticky Menu Dimensions */
   border-image: url(/img/Untitled.png) 50 round; }
