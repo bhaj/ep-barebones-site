@@ -1,0 +1,29 @@
+@import "normalize";
+
+
+.test1 {
+  background-image: url(/img/logo.png);
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: left;
+  margin: 0 auto;
+  box-shadow: 0 5px 10px #888888;
+
+}
+li {
+    display: inline-block;
+    width: percentage(1/8);
+    border-bottom: 8px solid transparent;
+}
+.test1 {
+    height: 100px;
+}
+li, ul {
+    height: 92px;
+    line-height: 100px;
+}
+li:hover {
+    border-bottom: 8px solid black; /* Sticky Menu Dimensions */
+    // background: rgba(0, 0, 0, 0.45);
+    border-image: url(/img/Untitled.png) 50 round;
+}
