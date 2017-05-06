@@ -354,31 +354,64 @@ td,
 th {
   padding: 0; }
 
+html, body {
+  height: 100%;
+  font-family: 'Josefin Sans', sans-serif; }
+
 .test1 {
   width: 100%;
   margin: 0 auto;
   box-shadow: 0 5px 10px #888888;
-  background-color: black;
-  opacity: 0.5;
-  color: white;
   position: fixed;
-  top: 0; }
+  top: 0;
+  height: 70px;
+  background: white; }
 
-li {
-  display: inline-block;
-  width: 156px;
-  border-bottom: 8px solid transparent;
-  text-align: center; }
-
-.test1 {
-  height: 100px; }
-
-li, ul {
-  height: 92px;
-  line-height: 100px;
+.test1 ul {
+  list-style-type: none;
   padding: 0;
   margin: 0; }
 
-li:hover {
-  border-bottom: 8px solid black;
-  border-image: url(/img/Untitled.png) 50 round; }
+.test1 ul li {
+  display: inline-block; }
+
+.test1 ul li a {
+  text-decoration: none;
+  padding: .2em 1em;
+  color: black;
+  font-size: 1.4em; }
+
+li {
+  border-bottom: 5px solid transparent;
+  text-align: center; }
+
+li, ul {
+  height: 65px;
+  line-height: 70px;
+  padding: 0;
+  margin: 0; }
+
+.mbutton:hover {
+  border-bottom: 5px solid black;
+  border-image: url(/img/Untitled.png) 50 round;
+  background: rgba(215, 215, 215, 0.3); }
+
+.logo {
+  background-image: url(/img/logo.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 12.5%; }
+
+.logo:hover {
+  border-bottom: 5px solid black;
+  border-image: url(/img/Untitled.png) 50 round;
+  background: rgba(215, 215, 215, 0.3);
+  background-image: url(/img/logo.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 12.5%; }
+
+.paragraph {
+  width: 80%;
+  margin: 200px auto 0 auto;
+  font-size: 1.4em; }
